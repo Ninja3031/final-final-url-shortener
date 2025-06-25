@@ -1,0 +1,33 @@
+{
+  "name": "url-shortener-fullstack",
+  "version": "1.0.0",
+  "description": "A full-stack URL shortener application with React frontend and Node.js backend",
+  "main": "index.js",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && npm start",
+    "build:frontend": "cd frontend && npm run build",
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend"
+  },
+  "keywords": [
+    "url-shortener",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/url-shortener-fullstack.git"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.0"
+  }
+}
